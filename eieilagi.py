@@ -1,5 +1,4 @@
 import random
-import time
 import pandas 
 
 UKURAN_POPULASI = 600
@@ -13,7 +12,7 @@ ditemukan = False
 populasi = []
 data_generasi = []
 
-# Membuat gen secara acak 
+# Membuat gen pertama secara acak 
 def buat_gen(length):
     gen = []
     for _ in range(length):
